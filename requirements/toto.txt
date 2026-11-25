@@ -1,0 +1,11 @@
+# Toto environment (Python 3.12). toto-ts pins torch 2.7, transformers 4.52 and numpy 1.26, so Toto runs in its own
+# environment:
+#   pip install -r requirements/toto.txt
+#   pip install --force-reinstall --no-deps torch==2.7.0 --index-url https://download.pytorch.org/whl/cu128
+toto-ts==0.2.0
+torch==2.7.0
+transformers==4.52.1
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==25.0.1
+scipy==1.15.3

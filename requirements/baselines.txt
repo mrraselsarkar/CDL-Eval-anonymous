@@ -1,0 +1,17 @@
+# Environment of the added baselines (Python 3.12): exponential smoothing (statsmodels), DeepAR (GluonTS),
+# Lag-Llama, and the small forecasters with 512 context steps (realdata/bench_extra.py).
+#   pip install -r requirements/baselines.txt
+#   pip install --force-reinstall --no-deps torch==2.7.0 --index-url https://download.pytorch.org/whl/cu128
+#   git clone https://github.com/time-series-foundation-models/lag-llama third_party/lag-llama
+# bench_extra.py finds the Lag-Llama code in third_party/lag-llama, or in the folder named by the environment
+# variable LAGLLAMA_DIR. The runs of the paper used the main branch as of October 2026 (VERSION 0.1.0).
+torch==2.7.0
+gluonts[torch]==0.14.4
+lightning==2.1.4
+pytorch-lightning==2.1.4
+statsmodels==0.15.0
+numpy==1.26.4
+pandas==2.1.4
+pyarrow==19.0.1
+scipy==1.17.1
+huggingface_hub==2.3.0

@@ -1,0 +1,24 @@
+# Main environment (Python 3.12): benchmark of Chronos, Chronos-Bolt, Chronos-2, TimesFM 2.5, Sundial and Aurora,
+# the small forecasters, the simulation study, and all report scripts.
+#
+# Install PyTorch with CUDA first, then this file, then reinstall PyTorch (aurora-model may replace the CUDA build of
+# torch with a CPU build):
+#   pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+#   pip install -r requirements/main.txt
+#   pip install --force-reinstall --no-deps torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+# The versions below are those of the runs reported in the paper.
+torch==2.11.0
+numpy==2.5.3
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.18.1
+matplotlib==3.11.2
+requests==2.34.2
+transformers==4.57.6
+accelerate==1.15.0
+huggingface_hub==0.36.2
+safetensors==0.8.0
+einops==0.8.2
+chronos-forecasting==2.3.2
+timesfm[torch]==3.0.2
+aurora-model==0.2.0

@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+
+# Run logs and generated tables and figures
+logs/
+outputs/tables/*
+outputs/figures/*
+!outputs/tables/.gitkeep
+!outputs/figures/.gitkeep
+
+# Data (scripts/download_data.py) and third-party code (requirements/baselines.txt)
+realdata/data/
+third_party/
+
+# Large files of the results archive and trained weights (retrained when missing)
+realdata/results/rev2/*__*.npz
+realdata/results/rev2/models_extra/
+realdata/results/models/
+realdata/results_smoke/
+simulation/results*/models/
+simulation/results_smoke/

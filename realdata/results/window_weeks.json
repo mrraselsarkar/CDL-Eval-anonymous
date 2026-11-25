@@ -1,0 +1,82 @@
+{
+ "ercot|24": {
+  "windows": 300,
+  "series": 8,
+  "series_week_blocks": 268,
+  "calendar_weeks": 147,
+  "first_origin": "2018-02-19 09:00:00",
+  "last_origin": "2021-08-29 22:00:00"
+ },
+ "traffic|24": {
+  "windows": 300,
+  "series": 247,
+  "series_week_blocks": 297,
+  "calendar_weeks": 22,
+  "first_origin": "2016-08-07 20:00:00",
+  "last_origin": "2016-12-30 20:00:00"
+ },
+ "ausel|24": {
+  "windows": 300,
+  "series": 5,
+  "series_week_blocks": 235,
+  "calendar_weeks": 125,
+  "first_origin": "2012-07-13 07:30:00",
+  "last_origin": "2015-03-31 16:00:00"
+ },
+ "ercot|192": {
+  "windows": 150,
+  "series": 8,
+  "series_week_blocks": 143,
+  "calendar_weeks": 101,
+  "first_origin": "2018-02-20 09:00:00",
+  "last_origin": "2021-08-08 05:00:00"
+ },
+ "traffic|192": {
+  "windows": 150,
+  "series": 131,
+  "series_week_blocks": 148,
+  "calendar_weeks": 21,
+  "first_origin": "2016-08-07 23:00:00",
+  "last_origin": "2016-12-22 06:00:00"
+ },
+ "ausel|192": {
+  "windows": 150,
+  "series": 5,
+  "series_week_blocks": 137,
+  "calendar_weeks": 98,
+  "first_origin": "2012-07-14 01:30:00",
+  "last_origin": "2015-02-21 00:30:00"
+ },
+ "ercot|720": {
+  "windows": 150,
+  "series": 8,
+  "series_week_blocks": 141,
+  "calendar_weeks": 103,
+  "first_origin": "2018-02-20 08:00:00",
+  "last_origin": "2021-07-17 12:00:00"
+ },
+ "traffic|720": {
+  "windows": 150,
+  "series": 131,
+  "series_week_blocks": 147,
+  "calendar_weeks": 18,
+  "first_origin": "2016-08-07 22:00:00",
+  "last_origin": "2016-11-30 12:00:00"
+ },
+ "ausel|720": {
+  "windows": 150,
+  "series": 5,
+  "series_week_blocks": 135,
+  "calendar_weeks": 97,
+  "first_origin": "2012-07-14 01:00:00",
+  "last_origin": "2015-02-10 10:00:00"
+ },
+ "aemo|24": {
+  "windows": 300,
+  "series": 5,
+  "series_week_blocks": 143,
+  "calendar_weeks": 36,
+  "first_origin": "2026-01-30 01:30:00",
+  "last_origin": "2026-09-29 19:30:00"
+ }
+}

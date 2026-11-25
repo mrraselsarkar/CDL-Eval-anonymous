@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the submission below. The manuscript is under double-anonymous review, so the citation names no authors."
+title: "CDL-Eval: A Zero-Shot Framework for Evaluating Calibration, Dependence, and Leakage of Time Series Foundation Models"
+type: software
+license: MIT
+authors:
+  - name: "Anonymous Authors"
+keywords:
+  - time series forecasting
+  - foundation models
+  - probabilistic forecasting
+  - calibration
+  - data leakage
+  - benchmark
+preferred-citation:
+  type: article
+  title: "CDL-Eval: A Zero-Shot Framework for Evaluating Calibration, Dependence, and Leakage of Time Series Foundation Models"
+  authors:
+    - name: "Anonymous Authors"
+  year: 2026
+  notes: "Manuscript under double-anonymous review"

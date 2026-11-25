@@ -1,0 +1,11 @@
+# Environment for one check only: Sundial through its released generate() routine (realdata/sundial_official.py),
+# which needs the transformers version of the Sundial model card. The benchmark calls Sundial's forward pass directly
+# and does not need this environment.
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+#   pip install -r requirements/sundial-generate.txt
+torch==2.11.0
+transformers==4.40.1
+numpy==2.5.4
+pandas==3.0.6
+pyarrow==26.0.0
+scipy==1.18.1
